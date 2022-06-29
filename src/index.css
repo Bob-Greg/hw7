@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,48 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wh-full {
+  width: calc(100vw - 3rem);
+  height: calc(100vh - 3rem);
+}
+
+.new-text-amber {
+  color: rgb(254 243 199);
+  text-shadow: 0 1px rgb(253 230 138), 0 2px rgb(252 211 77), 0 3px rgb(252 211 77), 0 4px rgb(251 191 36), 0 5px rgb(251 191 36), 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.new-text-amber-dark {
+  color: rgb(254 243 199);
+  text-shadow: 0 1px rgb(253 230 138), 0 2px rgb(252 211 77), 0 3px rgb(252 211 77), 0 4px rgb(251 191 36), 0 5px rgb(251 191 36), 0 5px 6px rgba(0, 0, 0, 0.8);
+}
+
+.new-text-aqua {
+  color: rgb(207 250 254);
+  text-shadow: 0 1px rgb(165 243 252), 0 2px rgb(103 232 249), 0 3px rgb(103 232 249), 0 4px rgb(34 211 238), 0 5px rgb(34 211 238), 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.new-text-aqua-dark {
+  color: rgb(207 250 254);
+  text-shadow: 0 1px rgb(165 243 252), 0 2px rgb(103 232 249), 0 3px rgb(103 232 249), 0 4px rgb(34 211 238), 0 5px rgb(34 211 238), 0 5px 6px rgba(0, 0, 0, 0.8);
+}
+
+.new-box-aqua {
+  background-color: rgb(165 243 252);
+  box-shadow: 0 1px rgb(103 232 249), 0 2px rgb(34 211 238), 0 3px rgb(34 211 238), 0 4px rgb(6 182 212), 0 5px rgb(6 182 212), 0 7px 7px rgba(0, 0, 0, 0.6);
+}
+
+.new-button-aqua {
+  background-color: rgb(207 250 254) !important;
+  box-shadow: 0 1px rgb(165 243 252), 0 2px rgb(103 232 249), 0 3px rgb(103 232 249), 0 4px rgb(34 211 238), 0 5px rgb(34 211 238), 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.new-button-amber {
+  background-color: rgb(252 211 77) !important;
+  box-shadow: 0 1px rgb(251 191 36), 0 2px rgb(245 158 11), 0 3px rgb(245 158 11), 0 4px rgb(217 119 6), 0 5px rgb(217 119 6), 0 7px 7px rgba(0, 0, 0, 0.6);
+}
+
+.space {
+  font-family: 'Space Grotesk', sans-serif;
 }
