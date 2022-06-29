@@ -66,11 +66,11 @@ function App() {
         let l: ReactElement[] = []
         for (let i = 1; i <= 10; i++) {
             let inTxt: any = undefined
-            await fetch(`/${i}.in`)
+            await fetch(`${i}.in`)
                 .then(resp => resp.text())
                 .then(dat => inTxt = dat)
             let outTxt: any = undefined
-            await fetch(`/${i}.out`)
+            await fetch(`${i}.out`)
                 .then(resp => resp.text())
                 .then(dat => outTxt = dat)
             while (inTxt === undefined || outTxt === undefined) ;
